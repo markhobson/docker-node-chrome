@@ -1,0 +1,12 @@
+{
+  "name": "docker-node-chrome-demo",
+  "version": "1.0.0",
+  "description": "Docker Node Chrome Demo",
+  "scripts": {
+    "postinstall": "./node_modules/protractor/bin/webdriver-manager update",
+    "test": "./node_modules/protractor/bin/protractor conf.js"
+  },
+  "devDependencies": {
+    "protractor": "^5.4.2"
+  }
+}
