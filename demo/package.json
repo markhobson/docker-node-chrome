@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Docker Node Chrome Demo",
   "scripts": {
-    "postinstall": "webdriver-manager update --versions.standalone 3.141.59",
+    "postinstall": "webdriver-manager update",
     "test": "protractor conf.js"
   },
   "devDependencies": {
