@@ -7,6 +7,6 @@
     "test": "protractor conf.js"
   },
   "devDependencies": {
-    "protractor": "^5.4.2"
+    "protractor": "^7.0.0"
   }
 }
