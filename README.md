@@ -4,7 +4,6 @@ Docker image for Node.js automated UI tests.
 
 Includes:
 
-* JDK 8
 * Node.js 20.x
 * Chrome (latest)
 
