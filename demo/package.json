@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Docker Node Chrome Demo",
   "scripts": {
-    "postinstall": "webdriver-manager update",
-    "test": "protractor conf.js"
+    "test": "jasmine"
   },
   "devDependencies": {
-    "protractor": "^7.0.0"
+    "jasmine": "^5.1.0",
+    "selenium-webdriver": "^4.18.1"
   }
 }
